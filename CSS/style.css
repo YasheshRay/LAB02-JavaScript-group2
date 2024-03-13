@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dcdcdc;
+    height: 90vh;
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#car_Image {
+    width: 1700px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#createButton {
+    margin-right: 20px;
+}
+
+.car-info {
+    width: 40%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.car-info > div {
+    margin-bottom: 10px;
+}
+
+.car-properties {
+    width: 30%;
+    text-align: left;
+    padding: 0 20px;
+}
